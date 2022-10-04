@@ -1,10 +1,12 @@
 #!/bin/bash
 
-# Usage: amasser.sh domain.com
+# Recon and Validate
+
+# Usage: rav.sh domain.com
 
 # Input: domain name
-# get output file from amass domain:ip and other results and only look for domains/subdomains, then probe for 
-# response and write a new file
+# Uses OWASP's Amass, get output file from amass domain:ip and other results and only look for domains/subdomains, then probe for 
+# response using httprobe and write a new file
 # (The output of amass is > domain ip,ip,ip)
 #
 # Note: This could be also useful for any input file containing domains/subdomains
